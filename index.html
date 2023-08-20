@@ -11,21 +11,25 @@
         <h1>E-Commerce Store</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
+
+    <div>
+        <p>Cart: <span id="cart-count">0</span> items</p>
+    </div>  
+
     <main>
         <section class="products">
             <article class="product">
                 <img src="Headphones.jpg" alt="Headphones">
                 <h2>Headphones</h2>
                 <p>Price: $19.99</p>
-                <button>Add to Cart</button>
+                <button class="add-to-cart" data-product-id="1">Add to Cart</button>
             </article>
             
             <article class="product">
@@ -43,18 +47,21 @@
             </article>
 
             <article class="product">
-                <img src="wired earphones.jpg" alt="wired earphones">
+                <img src="Wired earphones.jpg" alt="Wired earphones">
                 <h2>Wired Earphones</h2>
                 <p>Price: $4.99</p>
                 <button>Add to Cart</button>
             </article>
         </section>
     </main>
-    
     <footer>
         <p>&copy; 2023 E-Commerce Store. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
+
+
+
+
 </body>
 </html>
 
